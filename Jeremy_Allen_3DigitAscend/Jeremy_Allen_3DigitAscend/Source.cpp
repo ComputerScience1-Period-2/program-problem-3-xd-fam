@@ -35,7 +35,7 @@ void pause() { // Function to pause the system
 
 void main() {
 	int Three_digit_number;//Defining Variables so we can use them to store the numbers
-	int First_number;
+	int First_number; //first number
 	int Second_number;
 	int Third_number;
 		cout << "Type in a 3 digit number and I wil tell you if it is ascending, descending" << endl << "or neither." << endl;// asking the user for a 3 digit number
