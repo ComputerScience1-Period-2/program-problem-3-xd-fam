@@ -40,6 +40,7 @@ void main() {
 	int Third_number;
 		cout << "Type in a 3 digit number and I wil tell you if it is ascending, descending" << endl << "or neither." << endl;// asking the user for a 3 digit number
 		cin >> Three_digit_number;
+	while( cnt << 30);
 		First_number = Three_digit_number / 100;// finding the 1st number in the 3 digit number
 		Second_number = (Three_digit_number / 10) % 10;// finding the 2nd number
 		Third_number = Three_digit_number % 10;// finding the 3rd number
@@ -52,6 +53,7 @@ void main() {
 		else {
 			cout << "Neither" << endl; // if function to display neither if the above conditions are not met
 		}
+		cnt = cnt+1
 
 
 	pause(); // pauses to see the displayed text
